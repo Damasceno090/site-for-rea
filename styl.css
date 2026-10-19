@@ -1,0 +1,107 @@
+*{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+.cabecalho{
+    width: 100%;
+    background-color: #e7e7e7;
+    padding: 50px;
+    text-align: center;
+}
+
+
+.menu{
+    width: 100%;
+    position: sticky;
+    top: 0;
+    background-color: #fff;
+    z-index: 100;
+    box-shadow: 0px 4px 12px #333;
+}
+
+ul{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    padding: 25px;
+    justify-content: center;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.menu a{
+    padding: 8px 16px;
+    display: inline-block;
+    transition: transform 0.2s;
+}
+
+.menu a:hover{
+    background-color: #7e7d7d;
+    border-radius: 4px;
+    color: rgb(255, 255, 255);
+    transform: translateY(-4px) scale(1.2);
+    box-shadow: 0px 4px 15px #333;
+}
+
+.menu a.ativo{
+    background-color: #333;
+    color: #fff;
+    border-radius: 4px;
+    box-shadow: 0px 4px 15px #333;
+}
+
+
+.menu a:active{
+    transform: translateY(0);
+    background-color: #3d3d3d;
+}
+
+.home{
+    margin: 0 auto;
+    width: 50%;
+    text-align: left;
+    padding: 50px;
+    letter-spacing: 1px;
+    font-size: 20px;
+    line-height: 2.0;
+}    
+
+h1{
+    font-family: 'Orbitron', sans-serif;
+    letter-spacing: 5px;
+    font-size: 60px;
+}
+
+.effectcraft{
+    margin: 0 auto;
+    width: 100%;
+    text-align: left;
+    padding: 50px;
+    letter-spacing: 1px;
+    font-size: 20px;
+    line-height: 1.6;
+    background-color: #e7e7e7;
+    float: right;
+}
+
+.logoEfc{
+    width: 400px;
+    height: 400px;
+    float: left;
+    margin-right: 50px;
+}
+
+.link{
+    color: rgb(255, 75, 186);
+    text-decoration: underline;
+}
+
+.aftereffects{
+    color: rgb(75, 78, 255);
+    text-decoration: underline;
+}
